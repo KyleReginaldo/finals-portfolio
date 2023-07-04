@@ -80,7 +80,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Carousel buttons
   var rollenAudioButton = document.getElementById('rollenAudio');
-  var patrickAudioButton = document.getElementById('patrickAudio');
+  var correcheAudioButton = document.getElementById('correcheAudio');
+  var FrancisAudioButton = document.getElementById('francisAudio');
+  var PatrickAudioButton = document.getElementById('patrickAudio');
+  var JavierAudioButton = document.getElementById('JavierAudio');
 
   gsap.to(musicPlayer, { opacity: 0,y: 100, duration: 0.3 });
 
@@ -109,8 +112,18 @@ document.addEventListener('DOMContentLoaded', function () {
   // Add event listeners to the carousel buttons
   rollenAudioButton.addEventListener('mouseover', playAudio);
   rollenAudioButton.addEventListener('mouseout', pauseAudio);
-  patrickAudioButton.addEventListener('mouseover', playAudio);
-  patrickAudioButton.addEventListener('mouseout', pauseAudio);
+
+  FrancisAudioButton.addEventListener('mouseover', playAudio);
+  FrancisAudioButton.addEventListener('mouseout', pauseAudio);
+
+  correcheAudioButton.addEventListener('mouseover', playAudio);
+  correcheAudioButton.addEventListener('mouseout', pauseAudio);
+
+  PatrickAudioButton.addEventListener('mouseover', playAudio);
+  PatrickAudioButton.addEventListener('mouseout', pauseAudio);
+
+  JavierAudioButton.addEventListener('mouseover', playAudio);
+  JavierAudioButton.addEventListener('mouseout', pauseAudio);
 
 });
 

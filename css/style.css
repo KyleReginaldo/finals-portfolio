@@ -3,6 +3,7 @@
 :root
 {
     --green: #1DB954;
+    --violet: #9448ff;
 }
   
 
@@ -98,11 +99,30 @@ nav.navbar-transparent {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    font-weight: 900;
+    transition: all .2s ease;
+
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #9bf0e1;
+    color: white;
+    outline-color: var(--violet);
+    outline-style: solid;
+    border-radius: 6px;
+    outline-offset:  -3px;
+    background-color: var(--violet);
 }
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: white;
+    outline-color: var(--violet);
+    outline-style: solid;
+    border-radius: 6px;
+    outline-offset:  -3px;
+    background-color: var(--violet);
+}
+
+
 
 .navbar-light .navbar-toggler {
     color: rgba(255, 255, 255, .5);
