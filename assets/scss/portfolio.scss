@@ -130,7 +130,36 @@ section {padding: 50px 0;}
   align-items: center;
   padding: 20px;
   margin-bottom: 5px;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
+  transition: all .1s ease-in-out;
 }
+
+.education-item:hover
+{
+  box-shadow: 2px 2px 2px white;
+  transform: scale(1.02);
+}
+
+.pop-up-box {
+  position: absolute;
+  top: 0;
+  left: -500px;
+  width: 400px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.pop-up-box h4
+{
+  text-align: center;
+}
+
 
 .left-column {
   flex: 1;
@@ -175,3 +204,4 @@ section {padding: 50px 0;}
   text-align: left;
   margin-bottom: 5px;
 }
+
