@@ -52,12 +52,13 @@
 
       <a href="../index.html" class="top-right-link link">HOME</a>
 
-      <div id="portfolio-music-player">
-        <audio class="audio-player" controls>
-          <source src="#" type="audio/mpeg">
+      <div id="portfolio-music-player" class="slide-element">
+        <audio class="audio-player" controls autoplay>
+          <source src="../audio/yourman.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
+      
 
         <section id="vertical">
             <div class="container">
@@ -257,6 +258,25 @@
     <script src="../assets/js/portfolio.js"></script>
 
     <script src="../assets/js/popUpBox.js" type="text/javascript"></script>
+
+    <script>
+
+
+            // Select the slide element
+            const slideElement = document.querySelector('.slide-element');
+
+            // Create a GSAP timeline
+            const tl = gsap.timeline();
+
+            // Define the animation on the slide element
+            tl.from(slideElement, {
+            duration: 1,
+            y: '100%', // Slide up from the bottom
+            opacity: 0, // Start with opacity 0 and fade in
+            });
+
+
+    </script>
 
 
     <script src="../assets/js/cursor.js" type="text/javascript"></script>
