@@ -87,7 +87,7 @@ section {
 
 .horizontal__item {
   border: 1px solid #efefef;
-  padding: 200px 150px;
+  padding: 150px 150px;
 }
 
 .horizontal__item:not(:last-child) {
