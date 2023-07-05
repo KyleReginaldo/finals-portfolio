@@ -1,0 +1,37 @@
+.btn-custom {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 20px;
+}
+
+.btn-custom-2 {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 20px;
+}
+
+.btn-purple {
+  background: #7c26f8;
+}
+
+.btn-purple:hover {
+  background: #6207e3;
+  color: white;
+}
+
+.btn-white {
+  border: 2px solid white;
+}
+
+.btn-white:hover {
+  background: white;
+  color: black;
+}/*# sourceMappingURL=button.css.map */

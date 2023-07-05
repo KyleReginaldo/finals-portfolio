@@ -1,0 +1,43 @@
+.navbar {
+  height: 80px;
+  transition: height 0.4s ease-out;
+}
+
+.navbar-scrolled {
+  height: 50px;
+}
+
+/* navbar */
+nav.navbar-transparent {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-weight: 900;
+  transition: all 0.2s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  outline-color: var(--violet);
+  outline-style: solid;
+  border-radius: 6px;
+  outline-offset: -3px;
+  background-color: var(--violet);
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+  color: white;
+  outline-color: var(--violet);
+  outline-style: solid;
+  border-radius: 6px;
+  outline-offset: -3px;
+  background-color: var(--violet);
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.1);
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a0fd9e46f4.js" crossorigin="anonymous"></script>
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+
+    <!-- GSAP-->
+    <script src="../node_modules/gsap/dist/all.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js?v=40"></script>
+    <script src="../node_modules/@studio-freight/lenis/bundled/lenis.min.js"></script>
+
+
+    <title>ProfolioHub</title>
+
+    <link rel="icon" href="img/favicon.png">
+</head>
+
+<body id="body">
+
+
+
+    <div class="loading-screen">
+        <h2 class="mr-5">ProfolioHub</h2>
+        <div class="spinner"></div>
+      </div>
+    
+      
+      <div class="cursor"></div>
+      <div class="cursor-follower"></div>
+      
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
+            <div class="container navbar-system">
+                <a href="../index.html" class="navbar-brand">
+                    <img src="../assets/img/spotify.svg" alt="" width="142">
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navmain" >
+                    <i class="fas fa-bars text-white"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navmain">
+                    <ul class="navbar-nav ml-auto" id="navbar-mobile">
+                        <li class="nav-item">
+                            <a href="#body" onclick="lenis.scrollTo('#body')" class="nav-link lenis link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#school" onclick="lenis.scrollTo('#school')" class="nav-link lenis link">OUR SCHOOL</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#resources" onclick="lenis.scrollTo('#resources')" class="nav-link lenis link">ABOUT US</a>
+                        </li>
+
+                        <li class="nav-item division"></li>
+
+                        <li class="nav-item">
+                            <a href="" class="nav-link link">LOGIN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link link">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="scrollable-area"></div> 
+    
+    <div class="horizontal-scroll">
+        <div class="scroll-content">
+            <div  class="p-5">
+                <h1>Rollen Asistores</h1><span class="lead pl-3 header-text">WEB PROGRAMMER | GRAPHIC ARTIST </span>
+                <br>
+              </div>
+              <div class="p-5">
+                <h1>TOO FAR</h1>
+              </div>
+              <div class="p-5">
+                <h1>Rollen Asistores</h1><span class="lead pl-3 header-text">WEB PROGRAMMER | GRAPHIC ARTIST </span>
+                <br>
+              </div>
+        </div>
+      </div>
+      
+
+      
+      <div id="scrollToTop" class="scroll-to-top">
+        <a href="#body" onclick="lenis.scrollTo('#body')" class="link"><i class="fas fa-arrow-up"></i></a>
+      </div>
+      
+
+    
+    <!-- JavaScript (Opcional) -->
+
+
+    <script src="../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+
+    <script src="../assets/js/lenis.js"></script>
+
+    <script src="../assets/js/cursor.js" type="text/javascript"></script>
+
+    <script src="../assets/js/main.js" type="text/javascript"></script>
+
+    <script src="../assets/js/horizontalScroll.js"></script>
+
+    <script src="../node_modules/@popperjs/core/dist/umd/popper.js" type="text/javascript"></script>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    animation: arrow-bounce 1s ease-in-out infinite;
+    z-index: 999999;
+  }
+  
+  .scroll-to-top i
+  {
+    color: #f1f1f1;;
+  }
+
+  .scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+
+@keyframes arrow-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+  

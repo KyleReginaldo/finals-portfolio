@@ -1,0 +1,55 @@
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  z-index: 1;
+  transition: 0.3s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000; /* Ensure the cursor is above other elements */
+  transform: scale(1);
+}
+
+.cursor.active {
+  opacity: 0.5;
+  transform: scale(0);
+}
+
+.cursor.hovered {
+  opacity: 0.08;
+}
+
+.cursor-follower {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  z-index: 1;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.2s cubic-bezier(0.75, -0.27, 0.3, 1.33) opacity;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  z-index: 9999; /* Ensure the follower is above the footer */
+  transform: translate(5px, 5px);
+}
+
+.cursor-follower.active {
+  opacity: 0.7;
+  transform: scale(3);
+}
+
+.cursor-follower.hovered {
+  opacity: 0.08;
+} 
+
+/*# sourceMappingURL=cursor.css.map */
