@@ -87,7 +87,7 @@ section {
 
 .horizontal__item {
   border: 1px solid #efefef;
-  padding: 150px 150px;
+  padding: 100px 150px;
 }
 
 .horizontal__item:not(:last-child) {
@@ -165,6 +165,11 @@ section {
 
 .pop-up-box h4 {
   text-align: center;
+}
+
+.pop-up-box h6 {
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .left-column {
