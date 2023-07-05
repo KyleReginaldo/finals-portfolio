@@ -5,10 +5,15 @@
 
   // Carousel buttons
   var rollenAudioButton = document.getElementById('rollenAudio');
+
   var correcheAudioButton = document.getElementById('correcheAudio');
+
   var brettAudioButton = document.getElementById('brettAudio');
+
   var FrancisAudioButton = document.getElementById('francisAudio');
+
   var PatrickAudioButton = document.getElementById('patrickAudio');
+  
   var JavierAudioButton = document.getElementById('JavierAudio');
 
   gsap.to(musicPlayer, { opacity: 0,y: 100, duration: 0.3 });

@@ -103,8 +103,8 @@ section {
 
 .top-right-link {
   position: fixed;
-  top: 10px; /* Adjust this value as needed */
-  right: 10px; /* Adjust this value as needed */
+  top: 30px; /* Adjust this value as needed */
+  right: 30px; /* Adjust this value as needed */
   z-index: 9999;
   text-decoration: none;
   color: #212529;
@@ -114,6 +114,7 @@ section {
 }
 
 .top-right-link:hover {
+  text-decoration: none;
   color: #efefef;
 }
 
@@ -146,7 +147,6 @@ section {
 }
 
 .education-item:hover {
-  box-shadow: 2px 2px 2px white;
   transform: scale(1.02);
 }
 

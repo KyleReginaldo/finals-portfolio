@@ -229,6 +229,37 @@ footer ul li {
   color: black;
 }
 
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle !important;
+  transition: transform 0.5 ease;
+}
+
+thead tr {
+  background-color: var(--green);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#schedule h1 {
+  color: black;
+}
+
+td:hover {
+  background-color: var(--green);
+}
+
+#schedule {
+  background-color: white;
+}
+
 :root {
   --green: #1DB954;
   --violet: #9448ff;
