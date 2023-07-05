@@ -58,7 +58,7 @@ images.forEach((image) => {
 
 
   
-  // Select the loading screen and intro animation elements
+// Select the loading screen and intro animation elements
   var loadingScreen = document.querySelector('.loading-screen');
   var introAnimation = document.querySelector('.intro-animation');
   const navbar = document.querySelector('.navbar');

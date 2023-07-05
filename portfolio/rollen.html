@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
 
     <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/a0fd9e46f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 
     <!-- HTML5Shiv -->
     <!--[if lt IE 9]>
@@ -20,6 +19,9 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/main.css">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/portfolio.css">
+
 
     <!-- GSAP-->
     <script src="../node_modules/gsap/dist/all.js"></script>
@@ -34,6 +36,9 @@
 
 <body id="body">
 
+    <div class="navbar">
+
+    </div>
 
 
     <div class="loading-screen">
@@ -44,63 +49,158 @@
       
       <div class="cursor"></div>
       <div class="cursor-follower"></div>
-      
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparent">
-            <div class="container navbar-system">
-                <a href="../index.html" class="navbar-brand">
-                    <img src="../assets/img/spotify.svg" alt="" width="142">
-                </a>
+      <a href="../index.html" class="top-right-link link">HOME</a>
 
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#navmain" >
-                    <i class="fas fa-bars text-white"></i>
-                </button>
+      <div id="portfolio-music-player">
+        <audio class="audio-player" controls>
+          <source src="#" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
 
-                <div class="collapse navbar-collapse" id="navmain">
-                    <ul class="navbar-nav ml-auto" id="navbar-mobile">
-                        <li class="nav-item">
-                            <a href="#body" onclick="lenis.scrollTo('#body')" class="nav-link lenis link">HOME</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#school" onclick="lenis.scrollTo('#school')" class="nav-link lenis link">OUR SCHOOL</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#resources" onclick="lenis.scrollTo('#resources')" class="nav-link lenis link">ABOUT US</a>
-                        </li>
+        <section id="vertical">
+            <div class="container">
+                <div class="vertical__content">
+                    <div class="col col_left">
+                        <h2 class="vertical__heading"><span>About</span><span>ROLLEN</span><span>ASISTORES</span></h2>
+                    </div>
+                    <div class="col col_right">
+                        <div class="vertical__item">
+                            <h3>Who is Rollen Asistores?</h3>
+                            <p>I am a 21-year-old student currently enrolled in the esteemed Cavite State University - Trece Martires Campus, pursuing a Bachelor of Science degree in Information Technology. My passion for technology and web development has driven me to immerse myself in the world of computer programming languages, constantly expanding my knowledge and skills. With each passing day, I find myself captivated by the vast array of possibilities and learning opportunities this field offers.</p>
+                        </div>
+                        <div class="vertical__item">
+                            <h3>Educational Background</h3>
+                            <div class="education-item">
+                                <div class="left-column">
+                                  <h3>FIAT LUX ACADEME</h3>
+                                  <p>HIGHSCHOOL</p>
+                                </div>
+                                <div class="right-column">
+                                  <p>2015 - 2019</p>
+                                </div>
+                            </div>
+                            <div class="education-item">
+                                <div class="left-column">
+                                  <h3>LUIS Y. FERRER JR. SENIOR HIGH SCHOOL</h3>
+                                  <p>SENIOR HIGH SCHOOL</p>
+                                </div>
+                                <div class="right-column">
+                                  <p>2019 - 2021</p>
+                                </div>
+                            </div>
+                            <div class="education-item">
+                                <div class="left-column">
+                                  <h3>CvSU - Trece Martires Campus</h3>
+                                  <p>COLLEGE</p>
+                                </div>
+                                <div class="right-column">
+                                  <p>2022 - PRESENT</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vertical__item">
+                            <h3>SKILLS</h3>
 
-                        <li class="nav-item division"></li>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="skills">
 
-                        <li class="nav-item">
-                            <a href="" class="nav-link link">LOGIN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link link">CONTACT US</a>
-                        </li>
-                    </ul>
+                                        <h3>PHP</h3>
+        
+                                    </div>
+        
+                                    <div class="skills">
+        
+                                        <h3>MYSQL</h3>
+        
+                                    </div>
+        
+                                    <div class="skills">
+        
+                                        <h3>Node.JS</h3>
+        
+                                    </div>
+                                    
+                                    <div class="skills">
+        
+                                    <h3>Adobe Products</h3>
+        
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="skills">
+
+                                        <h3>JAVASCRIPT</h3>
+        
+                                    </div>
+        
+                                    <div class="skills">
+        
+                                        <h3>OFFICE TOOLS</h3>
+        
+                                    </div>
+        
+                                    <div class="skills">
+        
+                                        <h3>Node.JS</h3>
+        
+                                    </div>
+                                    
+                                    <div class="skills">
+        
+                                    <h3>Adobe Products</h3>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            
+
+
+                        </div>
+                        <div class="vertical__item last-item">
+                            <h3>CONTACT</h3>
+                            <div class="contacts">
+                                <i class="fa fas fa-phone"></i>  +63 956 6943 713
+                            </div>
+                            <div class="contacts">
+                                <i class="fa fas fa-at"></i>  asistoresrlc1@gmail.com
+                            </div>
+
+                            <div class="contacts">
+                                <i class="fa-solid fa-location-pin"></i>  033 Pasong Kawayan 1, City of General Trias, Cavite
+                            </div>
+                        
+                        </div>
+
+
+                    </div>
                 </div>
             </div>
-        </nav>
-    </header>
-
-    <div class="scrollable-area"></div> 
+        </section>
     
-    <div class="horizontal-scroll">
-        <div class="scroll-content">
-            <div  class="p-5">
-                <h1>Rollen Asistores</h1><span class="lead pl-3 header-text">WEB PROGRAMMER | GRAPHIC ARTIST </span>
-                <br>
-              </div>
-              <div class="p-5">
-                <h1>TOO FAR</h1>
-              </div>
-              <div class="p-5">
-                <h1>Rollen Asistores</h1><span class="lead pl-3 header-text">WEB PROGRAMMER | GRAPHIC ARTIST </span>
-                <br>
-              </div>
-        </div>
-      </div>
-      
+        <section id="horizontal">
+            <div class="container">
+                <div class="horizontal__content">
+                    <div class="horizontal__item">
+                            <img src="../assets/img/rollen/2X2.png" width="250px">
+                    </div>
+                    <div class="horizontal__item">
+                        <div class="horizontal__num">2</div>
+                    </div>
+                    <div class="horizontal__item">
+                        <div class="horizontal__num">3</div>
+                    </div>
+                    <div class="horizontal__item">
+                        <div class="horizontal__num">4</div>
+                    </div>
+                    <div class="horizontal__item">
+                        <div class="horizontal__num">5</div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
       
       <div id="scrollToTop" class="scroll-to-top">
@@ -114,13 +214,12 @@
 
     <script src="../node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 
-    <script src="../assets/js/lenis.js"></script>
+    <script src="../assets/js/portfolio.js"></script>
 
     <script src="../assets/js/cursor.js" type="text/javascript"></script>
 
     <script src="../assets/js/main.js" type="text/javascript"></script>
 
-    <script src="../assets/js/horizontalScroll.js"></script>
 
     <script src="../node_modules/@popperjs/core/dist/umd/popper.js" type="text/javascript"></script>
 
