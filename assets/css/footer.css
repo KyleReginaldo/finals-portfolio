@@ -13,6 +13,7 @@ footer h4 {
 
 footer .navbar-nav a {
   color: white;
+  text-decoration: none;
   font-size: 0.8em;
 }
 
@@ -28,6 +29,6 @@ footer ul {
 footer ul li {
   display: inline-block;
   margin: 0 5px;
-} 
+}
 
 /*# sourceMappingURL=footer.css.map */
